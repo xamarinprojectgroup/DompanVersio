@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Kotityot2"
+             x:Class="Kotityot2.MainPage">
+
+    <StackLayout Spacing="10">
+        <!-- Place new controls here -->
+        
+        <Label Text="Kotityöappi" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+       
+
+        <Button x:Name="btnKirjaudu" Text="Kirjaudu" 
+           HorizontalOptions="Center"
+           VerticalOptions="StartAndExpand" />
+        <Button x:Name="btnRekisteroidy" Text="Reksiteröidy" 
+           HorizontalOptions="Center"
+           VerticalOptions="EndAndExpand" />
+        <Button x:Name="btnUusiSalasana" Text="Unohtuiko salasanasi?" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+
+</ContentPage>
