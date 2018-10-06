@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kotityot2.Rekisteroidy">
+    <ContentPage.Content>
+        <StackLayout Spacing="2">
+            <Label Text="Käyttäjätunnus"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="TextFieldKauttaja" Text=""
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                  WidthRequest="150"/>
+            <Label Text="Sähköpostiosoite"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="TextFieldSposti" Text=""
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                  WidthRequest="150"/>
+            <Label Text="Salasana"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="TextFieldSalasana" Text=""
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                  WidthRequest="150" />
+            <Label Text="Vahvista salasana"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="TextFieldVahvistaSalasana" Text=""
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                  WidthRequest="150" />
+            <Label Text="Nimi"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name="TextFieldNimi" Text=""
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                  WidthRequest="150" />
+            <Button x:Name="btnRekisteroidy" Text="Rekisteröidy" 
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
